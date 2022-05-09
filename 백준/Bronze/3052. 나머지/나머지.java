@@ -12,7 +12,6 @@ public class Main {
         }
         Arrays.sort(restArr);
         int count = 1;
-        int index = 0;
 
         for(int i=0; i<restArr.length-1; i++){
             if(restArr[i] != restArr[i+1]){
