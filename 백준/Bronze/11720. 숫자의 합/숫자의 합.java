@@ -8,6 +8,12 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
         String numbers = br.readLine();
 
-        System.out.println(numbers.chars().map(Character::getNumericValue).sum());
+        int sum = 0;
+
+        for(int i=0; i<N; i++) {
+            sum += numbers.charAt(i) - '0';
+        }
+
+        System.out.println(sum);
     }
 }
