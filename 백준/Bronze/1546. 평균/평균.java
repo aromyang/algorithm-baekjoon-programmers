@@ -1,27 +1,25 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int testcase = sc.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
 
-        double[] scoreArr = new double[testcase];
-        double max = 0;
+        int[] scores = new int[N];
 
-        for(int i=0; i<testcase; i++){
-            int score = sc.nextInt();
-            scoreArr[i] = score;
-            if(scoreArr[i]>max) max = scoreArr[i];
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
+        for(int i=0; i<N; i++) {
+            scores[i] = Integer.parseInt(st.nextToken());
         }
 
-        double sum = 0;
+        int max = Arrays.stream(scores).max().getAsInt();
+        int sum = Arrays.stream(scores).sum();
 
-        for(int i=0; i<scoreArr.length; i++){
-            if(scoreArr[i]==max) scoreArr[i]=100;
-            else scoreArr[i]= (double)(scoreArr[i]/max) *100;
-            sum += scoreArr[i];
-
-        }
-        System.out.println(sum/testcase);
+        System.out.println((double)sum * 100 / max / N);
     }
 }
