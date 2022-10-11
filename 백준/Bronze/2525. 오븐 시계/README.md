@@ -1,10 +1,10 @@
-# [Bronze IV] 오븐 시계 - 2525 
+# [Bronze III] 오븐 시계 - 2525 
 
 [문제 링크](https://www.acmicpc.net/problem/2525) 
 
 ### 성능 요약
 
-메모리: 18440 KB, 시간: 232 ms
+메모리: 30840 KB, 시간: 68 ms
 
 ### 분류
 
