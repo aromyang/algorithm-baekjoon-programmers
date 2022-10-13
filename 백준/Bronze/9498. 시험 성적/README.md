@@ -1,4 +1,4 @@
-# [Bronze IV] 시험 성적 - 9498 
+# [Bronze V] 시험 성적 - 9498 
 
 [문제 링크](https://www.acmicpc.net/problem/9498) 
 
