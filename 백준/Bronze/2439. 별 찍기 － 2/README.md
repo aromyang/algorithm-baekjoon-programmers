@@ -1,10 +1,10 @@
-# [Bronze III] 별 찍기 - 2 - 2439 
+# [Bronze IV] 별 찍기 - 2 - 2439 
 
 [문제 링크](https://www.acmicpc.net/problem/2439) 
 
 ### 성능 요약
 
-메모리: 22680 KB, 시간: 416 ms
+메모리: 30840 KB, 시간: 76 ms
 
 ### 분류
 
