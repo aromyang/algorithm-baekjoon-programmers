@@ -1,10 +1,10 @@
-# [Bronze III] 기찍 N - 2742 
+# [Bronze IV] 기찍 N - 2742 
 
 [문제 링크](https://www.acmicpc.net/problem/2742) 
 
 ### 성능 요약
 
-메모리: 33236 KB, 시간: 1180 ms
+메모리: 30840 KB, 시간: 120 ms
 
 ### 분류
 
