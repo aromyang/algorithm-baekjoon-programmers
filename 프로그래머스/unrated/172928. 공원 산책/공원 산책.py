@@ -3,11 +3,10 @@ def solution(park, routes):
     row = len(park)
     col = len(park[0])
 
-    while not now:
-        for i in range(row):
-            for j in range(col):
-                if park[i][j] == 'S':
-                    now = (i, j)
+    for i in range(row):
+        for j in range(col):
+            if park[i][j] == 'S':
+                now = (i, j)
 
     for r in routes:
         direction, distance = r.split()
